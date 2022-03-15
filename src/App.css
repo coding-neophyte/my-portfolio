@@ -47,7 +47,14 @@ html{
 .nav{
   padding: 15px;
   text-decoration: none;
+  color: #0e6ba8;
 }
+
+.nav:hover{
+  color: #a6e1fa;
+  text-decoration: underline;
+}
+
 
 .nav-container{
   display: flex;
@@ -102,4 +109,22 @@ html{
   font-family: 'Alfa Slab One', cursive;
   color: #0e6ba8;
   text-decoration: none;
+}
+
+.social-media{
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  margin: 10px;
+
+}
+
+.social{
+  height: 90px;
+  background-color: #0e6ba8;
+  padding: 10px;
+}
+
+.social:hover{
+  background-color: #a6e1fa;
 }

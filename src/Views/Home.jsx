@@ -20,6 +20,11 @@ export default function Home() {
         </p>
        <Link to='/work' className='link'><Button variant="outlined" size='large' color='primary'>Check my Work!</Button></Link>
     </div>
+    <div className='social-media'>
+        <a href='https://github.com/coding-neophyte' target='_blank' rel="noreferrer"><img src='github.png' alt='github' className='social'></img></a>
+
+        <a href='https://www.linkedin.com/in/juliusfranklin88/' target='_blank' rel="noreferrer"><img src='linkedin2.png' alt='github' className='social'></img></a>
+    </div>
     </div>
 
         </>
